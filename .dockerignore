@@ -1,0 +1,39 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment directories
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+*.env
+
+# Logs and reports
+*.log
+abuse_log.txt
+
+# Temporary or backup files
+*.bak
+*.tmp
+*.swp
+
+# Audio files
+*.mp3
+*.wav
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor configuration
+.vscode/
+.idea/
+
+# Jupyter notebooks checkpoints (if ever added)
+.ipynb_checkpoints/
+
+# Docker-related
+Dockerfile~

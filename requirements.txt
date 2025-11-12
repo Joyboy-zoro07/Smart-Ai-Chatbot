@@ -3,7 +3,8 @@ uvicorn[standard]
 openai
 redis
 python-dotenv
-whisper
+git+https://github.com/openai/whisper.git
+
 gTTS
 pydantic
 tiktoken
@@ -18,3 +19,4 @@ better_profanity
 websockets
 requests
 pydub
+python-multipart
